@@ -1,0 +1,118 @@
+*{
+        /* 鼠标样式 */
+        cursor: default;
+}
+body{
+    background-image: url(../../pic/-64jw1Q5-8mi9XbZ2yT3cS13l-is.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 190vh;
+}
+.back{
+    position: fixed;
+    top: 0;
+    left: 1vw;
+    font-size: 30px;
+    padding: 5px;
+    text-align: right;
+    line-height: 6vh;
+    z-index: 31;
+    height: 6vh;
+    width: 8vw;
+    color: white;
+    transition: all 2s;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.back:hover{
+    background-color: rgb(86, 0, 0);
+}
+.lw4{
+    position: absolute;
+    z-index: 30;
+    padding: 50vh 33vw;
+    width: 32.5vw;
+    overflow: hidden;
+    opacity: 0;
+    top: -2vh;
+    font-size: 40px;
+    overflow-x: none;
+    background-color: rgb(255, 255, 255);
+    animation-fill-mode: backwards;
+    animation: lo 4s;
+}
+@keyframes lo{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.bagrn{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    left: 9vw;
+    height: 180vh;
+    width: 85vw;
+    filter: blur(5px);
+}
+.main{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+    left: 9vw;
+    height: 180vh;
+    width: 85vw;
+    z-index: 1;
+}
+.topbox{
+    margin: 30px auto;
+    height: 60vh;
+    width: 80vw;
+}
+.tpic1{
+    margin: 0 50px 5px 0;
+    float: left;
+    border: 2px solid;
+}
+.tpic2{
+    float: right;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 12px;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.word{
+    padding: 10px;
+    font-size: 18px;
+    height: 60vh;
+    width: 79vw;
+    right: 0;
+}
+.midbox{
+    margin: 10px auto;
+    height: 30vh;
+    padding: 10px;
+    font-size: 18px;
+    width: 80vw;
+}
+.paddingbox{
+    margin: 10px auto;
+    height: 60vh;
+    padding: 10px;
+    font-size: 18px;
+    width: 80vw;
+}
+.hiddenword{
+    background-color: black;
+    transition: all 2s;
+}
+.hiddenword:hover{
+    background-color: rgba(255, 255, 255, 0);
+}

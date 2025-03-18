@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+body{
+    background-image: url(../../pic/干员背景.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+.box {
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+    height: 100vh;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+    overflow: hidden;
+}
+.guy1{
+    margin-left: 20vw;
+}
+.guy13{
+    margin-left: 10vw;
+}
+.guy1-1{
+    margin-top: -40vh;
+    margin-left: 5vw;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all 1s;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.j1{
+    position: fixed;
+    height: 10vh;
+    width: 10vw;
+    top: 0;
+    left: 0;
+  }
+  .j2{
+    position: fixed;
+    height: 10vh;
+    width: 10vw;
+    top: 0;
+    left: 15vw;
+  }
+  .log1{
+    position: fixed;
+    height: 40vh;
+    width: 20vw;
+    bottom: 50vh;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(../../pic/Logo_罗德岛白.png);
+    background-size: 100% 100%;
+  }
+  .log2{
+    position: fixed;
+    height: 40vh;
+    width: 20vw;
+    bottom: 50vh;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(../../pic/Logo_炎-龙门.png);
+    background-size: 100% 100%;
+  }
+  .vid1{
+    position: fixed;
+    height: 20vh;
+    width: 10vw;
+    bottom: 30vh;
+    left: 0;
+    background-image: url(../../pic/图标_职业_术师_大图_白.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .vid2{
+    position: fixed;
+    height: 20vh;
+    width: 10vw;
+    bottom: 30vh;
+    left: 0;
+    background-image: url(../../pic/图标_职业_近卫_大图_白.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .vid3{
+    position: fixed;
+    height: 20vh;
+    width: 10vw;
+    bottom: 30vh;
+    left: 0;
+    background-image: url(../../pic/图标_职业_医疗_大图_白.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .name{
+    position: fixed;
+    height: 30vh;
+    width: 30vw;
+    line-height: 70px;
+    font-size: 130px;
+    bottom: -5vh;
+    left: 0;
+  }
+  span{
+    line-height: 10px;
+    top: 20px;
+    font-size: 60px;
+    color: rgb(81, 81, 81);
+  }
+  .text{
+    position: fixed;
+    height: 70vh;
+    width: 20vw;
+    top: 10vh;
+    right: 0;
+    color: aliceblue;
+    font-size: 35px;
+    padding: 20px;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.475);
+  }
+  .bac{
+    position: fixed;
+    height: 8vh;
+    text-align: right;
+    width: 13vw;
+    top: 0;
+    right: 10vw;
+    background-color: rgba(255, 255, 255, 0.47);
+}
+/* 隐藏滚动条 */
+::-webkit-scrollbar{
+    display: none;
+}
+.vid{
+  position: absolute;
+  right: 0;
+  top: 90vh;
+  height: 10vh;
+  width: 20vw;
+}

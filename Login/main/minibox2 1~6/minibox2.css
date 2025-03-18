@@ -1,0 +1,161 @@
+body {
+    background-image: url(../../pic/ffw7n3h9.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: 华文楷体;
+}
+.backbox {
+    position: relative;
+    height: 70vh;
+    width: 70vw;
+    margin: 10vh auto;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.pic1{
+    position: absolute;
+    top: 5vh;
+    left: -5vw;
+    height: 70vh;
+    width: 35vw;
+    background-image: url(../../pic/感染.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.pic2{
+    position: absolute;
+    top: 5vh;
+    left: -5vw;
+    height: 60vh;
+    width: 30vw;
+    background-image: url(../../pic/无名感染者.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.pic3{
+    position: absolute;
+    top: -15vh;
+    left: -15vw;
+    height: 90vh;
+    width: 45vw;
+    background-image: url(../../pic/源石技艺.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.pic4{
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+    height: 90vh;
+    width: 45vw;
+    background-image: url(../../pic/罗德岛工牌.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+.pic5{
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+    height: 90vh;
+    width: 45vw;
+    background-image: url(../../pic/整合运动.webp);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+.pic6{
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    height: 70vh;
+    width: 35vw;
+    background-image: url(../../pic/Logo_巴别塔.png);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+}
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
+    animation: tex 2s;
+}
+.titl{
+    position: absolute;
+    height: 10vh;
+    width: 50vw;
+    right: 0;
+    top: 4vh;
+    text-align: center;
+    color: white;
+    text-shadow:  rgb(255, 255, 255) 1px 0 10px;
+    font-size: 50px;
+    line-height: 10vh;
+    z-index: 2;
+    animation: tit 1s;
+}
+@keyframes tit{
+    from{
+        top: -10vh;
+        opacity: 0;
+    }
+    to{
+        top: 4vh;
+        opacity: 1;
+    }
+}
+.lin{
+    position: absolute;
+    background-color: black;
+    height: 1vh;
+    width: 25vw;
+    right: 12vw;
+    top: 8vh;
+    z-index: 1;
+    animation: lin 1s;
+}
+@keyframes lin{
+    from{
+        right: -10vw;
+        opacity: 0;
+    }
+    to{
+        right: 12vw;
+        opacity: 1;
+    }
+}
+.tex{
+    position: absolute;
+    color: white;
+    text-shadow: rgb(100, 100, 100) 2px 5px;
+    font-size: 30px;
+    height: 60vh;
+    width: 40vw;
+    line-height: 5vh;
+    right: 3vw;
+    top: 20vh;
+    text-align: center;
+    animation: tex 2s;
+}
+@keyframes tex{
+    from{
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.bac{
+    position: relative;
+    font-size: 40px;
+    height: 6vh;
+    text-align: right;
+    width: 10vw;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.47);
+}
+a{
+    color: rgb(95, 95, 95);
+    transition: all 1s;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}

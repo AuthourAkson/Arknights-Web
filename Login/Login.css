@@ -1,0 +1,345 @@
+.prts {
+    display: inline-block;
+    width: 90rem;
+    height: 90rem;
+    border: 0.5rem #8c960072 solid;
+    transform: rotate(45deg) skew(22deg, 22deg);
+    animation: prts1 6s linear infinite alternate;
+    position: absolute;
+    left: 900px;
+    top: 500px;
+}
+
+@keyframes prts1 {
+    0% {
+        transform: rotate(0deg);
+        border-color: #f2ff00;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        border-color: #8c960072;
+    }
+}
+
+
+.prts2 {
+    display: inline-block;
+    width: 90rem;
+    height: 90rem;
+    border: 0.5rem #8c000059 solid;
+    transform: rotate(45deg) skew(22deg, 22deg);
+    animation: spin2 20s linear infinite alternate;
+    position: absolute;
+    left: 900px;
+    top: 500px;
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(30deg);
+        border-color: #ff000059;
+    }
+
+    100% {
+        transform: rotate(-100deg);
+        border-color: #8c000059;
+    }
+}
+
+
+.prts3 {
+    display: inline-block;
+    width: 90rem;
+    height: 90rem;
+    border: 0.5rem #0089555c solid;
+    transform: rotate(45deg) skew(22deg, 22deg);
+    animation: spin3 10s linear infinite alternate;
+    position: absolute;
+    left: 900px;
+    top: 500px;
+}
+
+@keyframes spin3 {
+    0% {
+        transform: rotate(60deg);
+        border-color: #00ff9d5c;
+    }
+
+    100% {
+        transform: rotate(150deg);
+        border-color: #0089555c;
+    }
+}
+
+
+
+body {
+    background-image: url(../Login/pic/back-login.jpg);
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    animation: hhh 2s 1;
+}
+@keyframes hhh{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.468);
+    height: 400px;
+    width: 700px;
+    margin-top: 200px;
+    position: absolute;
+    left: 505px;
+    text-align: center;
+    animation: box 2s;
+
+}
+
+@keyframes box {
+    from {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.sty {
+    font-family: Brush Script MT;
+    font-size: 30px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+p {
+    position: absolute;
+    top: -72px;
+    font-size: 50px;
+    background-color: rgba(0, 47, 167, 0.8);
+    animation: login 5s linear infinite;
+}
+
+@keyframes login {
+    0% {
+        color: black;
+    }
+
+    1% {
+        color: white;
+    }
+
+    2% {
+        color: black;
+    }
+
+    3% {
+        color: white;
+    }
+
+    4% {
+        color: black;
+    }
+
+    5% {
+        color: white;
+    }
+
+    100% {
+        color: white;
+    }
+
+}
+
+hr {
+    color: aliceblue;
+}
+
+.inp {
+    line-height: 100px;
+}
+
+#user,
+#pass {
+    size: 200px;
+    width: 300px;
+    height: 20px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Brush Script MT;
+    color: rgb(0, 0, 0);
+    background-color: rgb(208, 208, 208);
+    border: none;
+    transition: all 0.5s linear;
+}
+
+button:hover {
+    transition-duration: 1s;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    box-shadow: 0 0 8px rgb(78, 78, 78);
+
+}
+
+.minilogo {
+    top: 10px;
+    margin-left: 47%;
+    position: absolute;
+    height: 120px;
+    width: 60px;
+    background-color: #007146;
+    transition: all 0.5s linear;
+    animation: minilogo 2s;
+
+}
+
+
+.minilogo:hover {
+
+
+    transition-duration: 1s;
+    background-color: #00ff9d;
+    transform: scale(1.2);
+}
+
+@keyframes minilogo {
+    0% {
+        transform: scale(5);
+        top: 300px;
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.letter {
+    width: 200px;
+    height: 200px;
+    margin-left: -400px;
+    top: 555px;
+    position: absolute;
+    margin-bottom: 100px;
+    transition: all 0.5s linear;
+    z-index: 20;
+}
+
+.letter:hover {
+    transition-duration: 1.5s;
+    translate: 1000px -300px;
+    transform: scale(2);
+}
+
+
+.zhizhen {
+    color: #f2ff00;
+    font-size: 200px;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    animation: heng 1s infinite alternate;
+    z-index: 10;
+}
+
+
+@keyframes heng {
+    0% {
+        transform: matrix(50px);
+    }
+
+    100% {
+        transform: translateX(-50px);
+    }
+
+}
+
+.lin1 {
+
+    background-color: #f2ff00;
+    position: absolute;
+    top: -73px;
+    left: -325px;
+    transform: rotate(-30deg);
+    height: 2px;
+    width: 2500px;
+    animation: lin1 2s;
+
+}
+
+@keyframes lin1 {
+    from {
+        left: 500px;
+        top: 500px;
+        opacity: 0;
+    }
+
+    to {
+        top: -73px;
+        left: -325px;
+        opacity: 1;
+    }
+
+}
+
+.lin2 {
+
+    background-color: #f2ff00;
+    position: absolute;
+    top: 150px;
+    left: 540px;
+    height: 2px;
+    width: 1500px;
+    animation: lin2 2s;
+
+}
+
+@keyframes lin2 {
+    from {
+        left: -1500px;
+        opacity: 0;
+    }
+
+    to {
+        left: 540px;
+        opacity: 1;
+    }
+
+}
+
+.lin3 {
+
+    background-color: #f2ff00;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 552px;
+    left: 100px;
+    height: 2px;
+    width: 700px;
+    animation: lin3 2s;
+
+}
+
+@keyframes lin3 {
+    from {
+        top: -552px;
+        opacity: 0;
+    }
+    to {
+        top: 552px;
+        opacity: 1;
+    }
+}
