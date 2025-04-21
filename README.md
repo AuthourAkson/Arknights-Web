@@ -1,1 +1,2 @@
-EXAMPLE:https://authourakson.github.io/Arknights-Web/ 
+EXAMPLE:https://authourakson.github.io/Arknights-Web/Login.html
+
